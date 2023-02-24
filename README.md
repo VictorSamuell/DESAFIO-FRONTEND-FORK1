@@ -1,6 +1,6 @@
 
 <img align="right" src="https://user-images.githubusercontent.com/58194653/221175217-9a4bc218-9fbd-4316-8883-f31dfff72905.png" alt="Inovia" width="20%"/>
-<h1 style="display: inline-block;">Processo seletivo Inovia </h1>
+<h1 style="display: inline-block;">Processo seletivo front-end </h1>
 
 O objetivo desta etapa é que você desenvolvedor mostre o seu talento e criatividade, para que possamos avaliar seu conhecimento técnico  e a metodologia aplicada no desenvolvimento do teste. 
 <h3 align="center"> Implemente um dos testes listados a seguir </h3>
