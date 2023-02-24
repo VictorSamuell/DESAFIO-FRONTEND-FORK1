@@ -38,7 +38,7 @@ O objetivo desta etapa é que você desenvolvedor mostre o seu talento e criativ
 # Como utilizar a api: 
 as rotas devem ter a URL base `http://xxxxxx` para realizar as seguintes operações: 
 ```
-Visualizar dados: Utilize a rota GET /dados para retornar todos os dados.
+Visualizar dados: Utilize a rota GET /dados para obter todos os dados da api.
 
 Adicionar dados: Utilize a rota POST /dados para adicionar novos dados.
 
