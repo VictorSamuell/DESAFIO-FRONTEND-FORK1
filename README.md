@@ -18,7 +18,7 @@ O objetivo desta etapa é que você desenvolvedor mostre o seu talento e criativ
 <details>
 <summary align="center"><h2>Desafio 2</h2></summary>
 
- Uma empresa de transporte decidiu criar um sistema que permitisse aos usuários acessar informações sobre os motoristas em todo o Brasil. Eles criaram um banco de dados que armazenava informações como `nome, gênero, endereço, cidade, estado, idade, veículo, ocupação, latitude e longitude`.
+ Uma transportadora decidiu criar um sistema que permitisse aos usuários acessar informações sobre os motoristas em todo o Brasil. Eles criaram um banco de dados que armazenava informações como `nome, gênero, endereço, cidade, estado, idade, veículo, ocupação, latitude e longitude`.
 
 - O desafio é criar uma aplicação React que permita aos usuários visualizar e manipular esses dados. A aplicação deve permitir que os usuários pesquisem por nome, gênero, endereço, cidade, estado, idade, veículo, ocupação, latitude e longitude. Os usuários também devem ser capazes de visualizar os dados em forma de tabelas e gráficos, bem como em um mapa. Além disso, a aplicação deve permitir que os usuários façam alterações nos dados, como adicionar, editar e excluir informações.
 
