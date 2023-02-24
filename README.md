@@ -72,8 +72,7 @@ Obs: As rotas irão retornar um status de sucesso da operação.
  - Plotly.js (https://plotly.com/javascript/react/)
  - Chart.js  ( https://www.chartjs.org/docs/latest/) 
  - Leaflet.js (https://leafletjs.com/) 
- 
-Ou qualquer outra biblioteca de graficos **interativos**
+ - E entre outras bibliotecas de graficos **interativos**
 
 ## Bootstraps & Grids: 
  -  Material-UI (https://material-ui.com/)
