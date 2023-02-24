@@ -46,7 +46,7 @@ Alterar dados: Utilize a rota PUT /dados/id para alterar os dados existentes.
 
 Remover dados: Utilize a rota DELETE /dados/id para remover os dados existentes.
 
-Elas devem retornar um status de sucesso da operação.
+Obs: As rotas irão retornar um status de sucesso da operação.
 ```
 # Requisitos
 
