@@ -111,7 +111,7 @@ Envio do desafio
 <p align="center"  >
 <a href="https://forms.gle/HfmaPXoGamikub3y7"> 
 
-<img src="https://user-images.githubusercontent.com/58194653/221183738-639cfbbf-d654-4213-af7a-9b6fb99b6ea5.gif" alt="" width="35%"/>
+<img src="https://user-images.githubusercontent.com/58194653/221183738-639cfbbf-d654-4213-af7a-9b6fb99b6ea5.gif" alt="" width="300px"/>
 Clique aqui para fazer o envio do desafio e do vídeo
 
 </a>
