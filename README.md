@@ -36,23 +36,41 @@ O objetivo desta etapa é que você desenvolvedor mostre o seu talento e criativ
 </details>
 
 # Como utilizar a api: 
-as rotas devem ter a URL base `http://xxxxxx` para realizar as seguintes operações: 
+as rotas devem ter a URL base `http://inovia.gbf3dqe5f0dydxhv.eastus.azurecontainer.io:3000/api` para realizar as seguintes operações: 
+
+Ação  |  Metodo | Rota | Retorna (JSON) | Body (JSON)
+------------- | ------------- | ------------- | ------------- | -------------
+Visualizar dados de todos itens | $\colorbox{blue}{GET}$ | /person | Todos os dados disponíveis. | Não é necessário
+Visualizar dados de um item por ID |  $\colorbox{blue}{GET}$ | /api/person/`:id` | Todos os dados de um `id` específico. | Não é necessário
+Deletar um item |  $\colorbox{red}{DELETE}$ | /api/person/`:id` | "person removed" | Não é necessário
+Adicionar um item |  $\colorbox{green}{POST}$ | /api/person | "person created" | <details> <summary> Dados a serem adicionados em JSON </summary> {`gender`:String,`nameSet`:String,`title`:String,`givenName`:String,`middleInitial`:String,`surname`:String,`streetAddress`:String,`city`:String,`state`:String,`stateFull`:String,`username`:String,`birthday`:String,`browserUserAgent`:String,`kilograms`:String,`centimeters`:String,`latitude`:String,`longitude`:String,`bloodType`:String,`vehicle`:String,`domain`:String,`occupation`:String} </details>
+Alterar dados de um item | $\colorbox{#703c16}{PUT}$ | /api/person/`:id` | "person uptated" |  <details> <summary>Dados a serem alterados em JSON: </summary> {`gender`:String,`nameSet`:String,`title`:String,`givenName`:String,`middleInitial`:String,`surname`:String,`streetAddress`:String,`city`:String,`state`:String,`stateFull`:String,`username`:String,`birthday`:String,`browserUserAgent`:String,`kilograms`:String,`centimeters`:String,`latitude`:String,`longitude`:String,`bloodType`:String,`vehicle`:String,`domain`:String,`occupation`:String} </details>
+
+- Caso tenha problemas com Cors, utilize `'Access-Control-Allow-Origin': '*'` no header do request.
+- Um corpo da mensagem ( `body` ) deve ser enviado junto ao request para a api quando o metodo for post ou put. 
+ <details> <summary align="center">Ver um exemplo de  $\colorbox{#703c16}{PUT}$  </summary>
+ 
 ```
-Visualizar dados: Utilize a rota GET /dados para obter todos os dados da api.
-
-Adicionar dados: Utilize a rota POST /dados para adicionar novos dados.
-
-Alterar dados: Utilize a rota PUT /dados/id para alterar os dados existentes.
-
-Remover dados: Utilize a rota DELETE /dados/id para remover os dados existentes.
-
-Obs: As rotas irão retornar um status de sucesso da operação.
+...
+Url: `http://inovia.gbf3dqe5f0dydxhv.eastus.azurecontainer.io:3000/api/1101`,
+Method : `PUT`,
+// Todos os dados do body são opcionais, envia apenas o que deseja alterar
+body: {
+"streetAddress":"Rua Inovia 123",
+"city":"Campinas",
+"state":"SP",
+"stateFull":"São Paulo",
+"kilograms":"89.6",
+}
+...
 ```
+</details>
+
 # Requisitos
 
-1. Criar uma aplicação React que permita aos usuários visualizar e manipular os dados armazenados utilizando a api da Inovia;
+1. Criar uma aplicação React que permita aos usuários visualizar e manipular os dados armazenados utilizando a super api da Inovia;
 2. Visualizar os dados em forma de tabelas e gráficos, bem como em um mapa. Além disso, a aplicação deve permitir que os usuários façam alterações nos dados, como adicionar, editar e excluir informações;
-3. Desenvolver no minimo 2 gráficos com os dados apresentados.
+3. Desenvolver no minimo 1 tabela, 1 gráficos (ou mais) e 1 mapa com os dados apresentados.
 4. Permitir que os usuários pesquise os dados por `nome, gênero, endereço, cidade, estado, idade, peso, altura ...`;
 5. Fazer um vídeo demonstração de até 10 minutos;
 6. Fazer um fork desse repositório e publicar no github em uma nova branch com o `NOME` do candidato. exemplo : Fork -> branch `JohnDoe`;
@@ -67,12 +85,12 @@ Obs: As rotas irão retornar um status de sucesso da operação.
 
 # o que pode ser utilizado:
 
-## Para criação de graficos e mapas interativos: 
+## Para criação de gráficos e mapas interativos: 
 
  - Plotly.js (https://plotly.com/javascript/react/)
  - Chart.js  ( https://www.chartjs.org/docs/latest/) 
  - Leaflet.js (https://leafletjs.com/) 
- - E entre outras bibliotecas de graficos **interativos**
+ - E entre outras bibliotecas de gráficos **interativos**
 
 ## Bootstraps & Grids: 
  -  Material-UI (https://material-ui.com/)
