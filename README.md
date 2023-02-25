@@ -1,5 +1,7 @@
 
+<a href="https://www.linkedin.com/company/inoviacorp/"  rel="noopener noreferrer" target="_blank"> 
 <img align="right" src="https://user-images.githubusercontent.com/58194653/221175217-9a4bc218-9fbd-4316-8883-f31dfff72905.png" alt="Inovia" width="210px"/>
+</a>
 <h1 style="display: inline-block;">Processo seletivo front-end </h1>
 
 O objetivo desta etapa é que você desenvolvedor mostre o seu talento e criatividade, para que possamos avaliar seu conhecimento técnico  e a metodologia aplicada no desenvolvimento do teste. 
@@ -119,7 +121,7 @@ body: {
  - Utilizar componentes ou códigos de terceiros que implementem algum dos requisitos.
 
 <h1>
-<a href="https://forms.gle/HfmaPXoGamikub3y7"> 
+<a href="https://forms.gle/HfmaPXoGamikub3y7" target="_blank"> 
 Envio do desafio
 </a>
 </h1>
@@ -127,7 +129,7 @@ Envio do desafio
 
 -  Você precisará fazer o upload do seu vídeo no youtube e preencher um formulário com informações sobre a sua participação. Em seguida, você precisará enviar o formulário e esperar a aprovação do desafio.
 <p align="center"  >
-<a href="https://forms.gle/HfmaPXoGamikub3y7"> 
+<a href="https://forms.gle/HfmaPXoGamikub3y7" rel="noopener noreferrer" target="_blank"> 
 
 <img src="https://user-images.githubusercontent.com/58194653/221183738-639cfbbf-d654-4213-af7a-9b6fb99b6ea5.gif" alt="" width="300px"/>
 Clique aqui para fazer o envio do desafio e do vídeo
