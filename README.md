@@ -77,7 +77,7 @@ body: {
 4. Permitir que os usuários pesquise os dados por `nome, gênero, endereço, cidade, estado, idade, peso, altura ...`;
 5. Fazer um vídeo demonstração de até 10 minutos;
 6. Fazer um fork desse repositório e publicar no github em uma nova branch com o `NOME` do candidato. exemplo : Fork -> branch `JohnDoe`;
-7. <b> O desafio deve ser concluído em até 10 dias. <b>
+7. <b> O desafio deve ser concluído com a data indicada no email. <b>
 
 ### Seria diferencial:
 
