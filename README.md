@@ -7,7 +7,7 @@
 O objetivo desta etapa é que você desenvolvedor mostre o seu talento e criatividade, para que possamos avaliar seu conhecimento técnico  e a metodologia aplicada no desenvolvimento do teste. 
 <h3 align="center"> Implemente um dos testes listados a seguir </h3>
 <details>
-<summary align="center"><h2> Desafio 1 - Saude  </h2> </summary> 
+<summary align="center"><h2> Desafio 1 - Saúde  </h2> </summary> 
 
 
  Um grupo de cientistas decidiu criar um sistema que permitisse aos usuários acessar informações sobre a saúde de pessoas em todo o Brasil. Eles criaram um banco de dados que armazenava informações como `nome, gênero, endereço, cidade, estado, idade, tipo sanguíneo, peso, altura, latitude e longitude`.
