@@ -39,7 +39,7 @@ O objetivo desta etapa é que você desenvolvedor mostre o seu talento e criativ
 </details>
 
 # Como utilizar a api: 
-as rotas devem ter a URL base `http://inovia.gbf3dqe5f0dydxhv.eastus.azurecontainer.io:3000/api` para realizar as seguintes operações: 
+As rotas devem utilizar a URL base `http://inovia.gbf3dqe5f0dydxhv.eastus.azurecontainer.io:3000/api` para realizar as seguintes operações: 
 
 Ação  |  Metodo | Rota | Retorna | Body (JSON)
 ------------- | ------------- | ------------- | ------------- | -------------
