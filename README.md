@@ -38,13 +38,13 @@ O objetivo desta etapa é que você desenvolvedor mostre o seu talento e criativ
 # Como utilizar a api: 
 as rotas devem ter a URL base `http://inovia.gbf3dqe5f0dydxhv.eastus.azurecontainer.io:3000/api` para realizar as seguintes operações: 
 
-Ação  |  Metodo | Rota | Retorna (JSON) | Body (JSON)
+Ação  |  Metodo | Rota | Retorna | Body (JSON)
 ------------- | ------------- | ------------- | ------------- | -------------
-Visualizar dados de todos itens | $\colorbox{blue}{GET}$ | /person | Todos os dados disponíveis. | Não é necessário
-Visualizar dados de um item por ID |  $\colorbox{blue}{GET}$ | /api/person/`:id` | Todos os dados de um `id` específico. | Não é necessário
-Deletar um item |  $\colorbox{red}{DELETE}$ | /api/person/`:id` | "person removed" | Não é necessário
-Adicionar um item |  $\colorbox{green}{POST}$ | /api/person | "person created" | <details> <summary> Dados a serem adicionados em JSON </summary> {`gender`:String,`nameSet`:String,`title`:String,`givenName`:String,`middleInitial`:String,`surname`:String,`streetAddress`:String,`city`:String,`state`:String,`stateFull`:String,`username`:String,`birthday`:String,`browserUserAgent`:String,`kilograms`:String,`centimeters`:String,`latitude`:String,`longitude`:String,`bloodType`:String,`vehicle`:String,`domain`:String,`occupation`:String} </details>
-Alterar dados de um item | $\colorbox{#703c16}{PUT}$ | /api/person/`:id` | "person uptated" |  <details> <summary>Dados a serem alterados em JSON: </summary> {`gender`:String,`nameSet`:String,`title`:String,`givenName`:String,`middleInitial`:String,`surname`:String,`streetAddress`:String,`city`:String,`state`:String,`stateFull`:String,`username`:String,`birthday`:String,`browserUserAgent`:String,`kilograms`:String,`centimeters`:String,`latitude`:String,`longitude`:String,`bloodType`:String,`vehicle`:String,`domain`:String,`occupation`:String} </details>
+Visualizar dados de todos itens | $\colorbox{blue}{GET}$ | /person | JSON: Todos os dados disponíveis. | Não é necessário
+Visualizar dados de um item por ID |  $\colorbox{blue}{GET}$ | /api/person/`:id` | JSON: Todos os dados de um `id` específico. | Não é necessário
+Deletar um item |  $\colorbox{red}{DELETE}$ | /api/person/`:id` | String: "person removed" | Não é necessário
+Adicionar um item |  $\colorbox{green}{POST}$ | /api/person | String: "person created" | <details> <summary> Dados a serem adicionados em JSON </summary> {`gender`:String,`nameSet`:String,`title`:String,`givenName`:String,`middleInitial`:String,`surname`:String,`streetAddress`:String,`city`:String,`state`:String,`stateFull`:String,`username`:String,`birthday`:String,`browserUserAgent`:String,`kilograms`:String,`centimeters`:String,`latitude`:String,`longitude`:String,`bloodType`:String,`vehicle`:String,`domain`:String,`occupation`:String} </details>
+Alterar dados de um item | $\colorbox{#703c16}{PUT}$ | /api/person/`:id` | String: "person uptated" |  <details> <summary>Dados a serem alterados em JSON: </summary> {`gender`:String,`nameSet`:String,`title`:String,`givenName`:String,`middleInitial`:String,`surname`:String,`streetAddress`:String,`city`:String,`state`:String,`stateFull`:String,`username`:String,`birthday`:String,`browserUserAgent`:String,`kilograms`:String,`centimeters`:String,`latitude`:String,`longitude`:String,`bloodType`:String,`vehicle`:String,`domain`:String,`occupation`:String} </details>
 
 - Caso tenha problemas com Cors, utilize `'Access-Control-Allow-Origin': '*'` no header do request.
 - Um corpo da mensagem ( `body` ) deve ser enviado junto ao request para a api quando o metodo for post ou put. 
