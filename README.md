@@ -7,7 +7,7 @@
 O objetivo desta etapa é que você desenvolvedor mostre o seu talento e criatividade, para que possamos avaliar seu conhecimento técnico  e a metodologia aplicada no desenvolvimento do teste. 
 <h3 align="center"> Implemente um dos testes listados a seguir </h3>
 <details>
-<summary align="center"><h2> Desafio 1  </h2> </summary> 
+<summary align="center"><h2> Desafio 1 - Saude  </h2> </summary> 
 
 
  Um grupo de cientistas decidiu criar um sistema que permitisse aos usuários acessar informações sobre a saúde de pessoas em todo o Brasil. Eles criaram um banco de dados que armazenava informações como `nome, gênero, endereço, cidade, estado, idade, tipo sanguíneo, peso, altura, latitude e longitude`.
@@ -18,18 +18,18 @@ O objetivo desta etapa é que você desenvolvedor mostre o seu talento e criativ
 </details>
 
 <details>
-<summary align="center"><h2>Desafio 2</h2></summary>
+<summary align="center"><h2>Desafio 2 - Transporte </h2></summary>
 
  Uma transportadora decidiu criar um sistema que permitisse aos usuários acessar informações sobre os motoristas em todo o Brasil. Eles criaram um banco de dados que armazenava informações como `nome, gênero, endereço, cidade, estado, idade, veículo, ocupação, latitude e longitude`.
 
 - O desafio é criar uma aplicação React que permita aos usuários visualizar e manipular esses dados. A aplicação deve permitir que os usuários pesquisem por nome, gênero, endereço, cidade, estado, idade, veículo, ocupação, latitude e longitude. Os usuários também devem ser capazes de visualizar os dados em forma de tabelas e gráficos, bem como em um mapa. Além disso, a aplicação deve permitir que os usuários façam alterações nos dados, como adicionar, editar e excluir informações.
 
-- Visando ajudar as empresas a escolher em qual região atuar, a tela principal deve exibir um mapa mostrando os veículos predominante por região.
+- Visando ajudar as transportadoras a escolher em qual região atuar, a tela principal deve exibir um mapa mostrando os veículos predominante por região.
 </details>
 
 
 <details>
-<summary align="center"><h2 align="center">Desafio 3</h2></summary>
+<summary align="center"><h2 align="center">Desafio 3 - Marketing </h2></summary>
 
  Uma empresa de marketing decidiu criar um sistema que permitisse aos profissionais acessar informações sobre os acessos de usuários em todo o Brasil. Eles criaram um banco de dados que armazenava informações como `nome, gênero, endereço, cidade, estado, idade, domínio, latitude e longitude e useragent browser`.
 
@@ -51,7 +51,7 @@ Alterar dados de um item | $\colorbox{#703c16}{PUT}$ | /api/person/`:id` | Strin
 
 - Caso tenha problemas com Cors, utilize `'Access-Control-Allow-Origin': '*'` no header do request.
 - Um corpo da mensagem ( `body` ) deve ser enviado junto ao request para a api quando o metodo for post ou put. 
- <details> <summary align="center">Ver um exemplo de  $\colorbox{#703c16}{PUT}$  </summary>
+ <details> <summary align="center">Exemplo de  $\colorbox{#703c16}{PUT}$  </summary>
  
 ```
 ...
