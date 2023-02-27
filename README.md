@@ -49,7 +49,7 @@ Deletar um item |  $\colorbox{red}{DELETE}$ | /api/person/`:id` | String: "perso
 Adicionar um item |  $\colorbox{green}{POST}$ | /api/person | String: "person created" | <details> <summary> Dados a serem adicionados em JSON </summary> {`gender`:String,`nameSet`:String,`title`:String,`givenName`:String,`middleInitial`:String,`surname`:String,`streetAddress`:String,`city`:String,`state`:String,`stateFull`:String,`username`:String,`birthday`:String,`browserUserAgent`:String,`kilograms`:String,`centimeters`:String,`latitude`:String,`longitude`:String,`bloodType`:String,`vehicle`:String,`domain`:String,`occupation`:String} </details>
 Alterar dados de um item | $\colorbox{#703c16}{PUT}$ | /api/person/`:id` | String: "person uptated" |  <details> <summary>Dados a serem alterados em JSON: </summary> {`gender`:String,`nameSet`:String,`title`:String,`givenName`:String,`middleInitial`:String,`surname`:String,`streetAddress`:String,`city`:String,`state`:String,`stateFull`:String,`username`:String,`birthday`:String,`browserUserAgent`:String,`kilograms`:String,`centimeters`:String,`latitude`:String,`longitude`:String,`bloodType`:String,`vehicle`:String,`domain`:String,`occupation`:String} </details>
 > **Warning**:
-> A rota foi testado pelo time de frontend para evitar os problemas com cors, entretando caso tenha problemas, utilize `'Access-Control-Allow-Origin': '*'` no header do request.
+> A rota foi testado pelo time de frontend para evitar os problemas com cors, entretanto caso tenha problemas, utilize `'Access-Control-Allow-Origin': '*'` no header do request.
 
 > **Note**:
 > Um corpo da mensagem ( `body` ) deve ser enviado junto ao request para a api quando o metodo for post ou put. 
