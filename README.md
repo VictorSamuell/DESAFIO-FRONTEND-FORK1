@@ -49,7 +49,7 @@ Deletar um item |  $\colorbox{red}{DELETE}$ | /api/person/`:id` | String: "perso
 Adicionar um item |  $\colorbox{green}{POST}$ | /api/person | String: "person created" | <details> <summary> Dados a serem adicionados em JSON </summary> {`gender`:String,`nameSet`:String,`title`:String,`givenName`:String,`middleInitial`:String,`surname`:String,`streetAddress`:String,`city`:String,`state`:String,`stateFull`:String,`username`:String,`birthday`:String,`browserUserAgent`:String,`kilograms`:String,`centimeters`:String,`latitude`:String,`longitude`:String,`bloodType`:String,`vehicle`:String,`domain`:String,`occupation`:String} </details>
 Alterar dados de um item | $\colorbox{#703c16}{PUT}$ | /api/person/`:id` | String: "person uptated" |  <details> <summary>Dados a serem alterados em JSON: </summary> {`gender`:String,`nameSet`:String,`title`:String,`givenName`:String,`middleInitial`:String,`surname`:String,`streetAddress`:String,`city`:String,`state`:String,`stateFull`:String,`username`:String,`birthday`:String,`browserUserAgent`:String,`kilograms`:String,`centimeters`:String,`latitude`:String,`longitude`:String,`bloodType`:String,`vehicle`:String,`domain`:String,`occupation`:String} </details>
 > **Warning**:
-> Caso tenha problemas com Cors, utilize `'Access-Control-Allow-Origin': '*'` no header do request.
+> A rota foi testado pelo time de frontend para evitar os problemas com cors, entretando caso tenha problemas, utilize `'Access-Control-Allow-Origin': '*'` no header do request.
 
 > **Note**:
 > Um corpo da mensagem ( `body` ) deve ser enviado junto ao request para a api quando o metodo for post ou put. 
@@ -57,7 +57,7 @@ Alterar dados de um item | $\colorbox{#703c16}{PUT}$ | /api/person/`:id` | Strin
  
 ```
 ...
-Url: `http://inovia.gbf3dqe5f0dydxhv.eastus.azurecontainer.io:3000/api/1101`,
+Url: `http://inovia.eastus.cloudapp.azure.com/api/person/1101`,
 Method : `PUT`,
 // Todos os dados do body são opcionais, envia apenas o que deseja alterar
 body: {
