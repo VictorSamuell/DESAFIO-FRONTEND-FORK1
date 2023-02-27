@@ -39,15 +39,15 @@ O objetivo desta etapa é que você desenvolvedor mostre o seu talento e criativ
 </details>
 
 # Como utilizar a api: 
-As rotas devem utilizar a URL base `http://inovia.eastus.cloudapp.azure.com/api` para realizar as seguintes operações: 
+As rotas devem utilizar a URL base `http://inovia.eastus.cloudapp.azure.com/api/person` para realizar as seguintes operações: 
 
 Ação  |  Metodo | Rota | Retorna | Body (JSON)
 ------------- | ------------- | ------------- | ------------- | -------------
-Visualizar dados de todos itens | $\colorbox{blue}{GET}$ | /person | JSON: Todos os dados disponíveis. | Não é necessário
-Visualizar dados de um item por ID |  $\colorbox{blue}{GET}$ | /api/person/`:id` | JSON: Todos os dados de um `id` específico. | Não é necessário
-Deletar um item |  $\colorbox{red}{DELETE}$ | /api/person/`:id` | String: "person removed" | Não é necessário
-Adicionar um item |  $\colorbox{green}{POST}$ | /api/person | String: "person created" | <details> <summary> Dados a serem adicionados em JSON </summary> {`gender`:String,`nameSet`:String,`title`:String,`givenName`:String,`middleInitial`:String,`surname`:String,`streetAddress`:String,`city`:String,`state`:String,`stateFull`:String,`username`:String,`birthday`:String,`browserUserAgent`:String,`kilograms`:String,`centimeters`:String,`latitude`:String,`longitude`:String,`bloodType`:String,`vehicle`:String,`domain`:String,`occupation`:String} </details>
-Alterar dados de um item | $\colorbox{#703c16}{PUT}$ | /api/person/`:id` | String: "person uptated" |  <details> <summary>Dados a serem alterados em JSON: </summary> {`gender`:String,`nameSet`:String,`title`:String,`givenName`:String,`middleInitial`:String,`surname`:String,`streetAddress`:String,`city`:String,`state`:String,`stateFull`:String,`username`:String,`birthday`:String,`browserUserAgent`:String,`kilograms`:String,`centimeters`:String,`latitude`:String,`longitude`:String,`bloodType`:String,`vehicle`:String,`domain`:String,`occupation`:String} </details>
+Visualizar dados de todos itens | $\colorbox{blue}{GET}$ | / | JSON: Todos os dados disponíveis. | Não é necessário
+Visualizar dados de um item por ID |  $\colorbox{blue}{GET}$ | /`:id` | JSON: Todos os dados de um `id` específico. | Não é necessário
+Deletar um item |  $\colorbox{red}{DELETE}$ | /`:id` | String: "person removed" | Não é necessário
+Adicionar um item |  $\colorbox{green}{POST}$ | / | String: "person created" | <details> <summary> Dados a serem adicionados em JSON </summary> {`gender`:String,`nameSet`:String,`title`:String,`givenName`:String,`middleInitial`:String,`surname`:String,`streetAddress`:String,`city`:String,`state`:String,`stateFull`:String,`username`:String,`birthday`:String,`browserUserAgent`:String,`kilograms`:String,`centimeters`:String,`latitude`:String,`longitude`:String,`bloodType`:String,`vehicle`:String,`domain`:String,`occupation`:String} </details>
+Alterar dados de um item | $\colorbox{#703c16}{PUT}$ | /`:id` | String: "person uptated" |  <details> <summary>Dados a serem alterados em JSON: </summary> {`gender`:String,`nameSet`:String,`title`:String,`givenName`:String,`middleInitial`:String,`surname`:String,`streetAddress`:String,`city`:String,`state`:String,`stateFull`:String,`username`:String,`birthday`:String,`browserUserAgent`:String,`kilograms`:String,`centimeters`:String,`latitude`:String,`longitude`:String,`bloodType`:String,`vehicle`:String,`domain`:String,`occupation`:String} </details>
 > **Warning**:
 > A rota foi testado pelo time de frontend para evitar os problemas com cors, entretanto caso tenha problemas, utilize `'Access-Control-Allow-Origin': '*'` no header do request.
 
