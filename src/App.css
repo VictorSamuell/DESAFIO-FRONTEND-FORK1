@@ -1,0 +1,29 @@
+
+#saude{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+    text-align: right;
+    font-style: normal;
+    font-weight: bold;
+    color: #1251a3;
+}
+.App{
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOsAAADWCAMAAAAHMIWUAAAAA1BMVEWVlZXQ8V5VAAAASElEQVR4nO3BAQ0AAADCoPdPbQ43oAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIB3A8VIAAFqm4S1AAAAAElFTkSuQmCC);
+    border: 1px outset rgb(43, 42, 42);
+    background-color: rgb(30, 31, 31);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.nav-link{
+    padding-top: 10px;
+    color: #1251a3;
+    
+}
+.nav-tabs{
+    background-color: #121212;
+}
+
+

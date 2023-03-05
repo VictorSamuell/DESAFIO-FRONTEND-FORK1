@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Arial;
+}
+
+.secaosobre{
+    position:relative;
+    width: 100%;
+    min-height: 95vh;
+    padding: 100px;
+    background: #121212;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.containersobre{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+}
+.containersobre .textsobre{
+    position: relative;
+    max-width: 600px; 
+    margin-right: 20px;   
+}
+.containersobre .textsobre .h2sobre{
+    color: #fff;
+    font-size: 2em;
+    margin-bottom: 10px;
+    line-height: 1em;
+    font-weight: 700;
+
+}
+.containersobre .textsobre .h2sobre  span{
+    font-size: 3.5em;
+    color: #1251a3;
+    
+
+
+}
+.containersobre .textsobre .psobre{
+    color: #fff;
+}
+
+.deletesobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 400px;
+}

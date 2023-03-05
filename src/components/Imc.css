@@ -1,0 +1,39 @@
+.flauta {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #91f0d3;
+    color: #1251a3;
+    font-family: Cambria , Arial;
+    flex-direction: column;
+
+
+}
+.quemexe{
+    
+    background-color: #91f0d3;
+    color: #1251a3;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 81vh;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.involvente{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #91f0d3;
+    color: #1251a3;
+    font-family: Cambria , Arial;   
+
+
+
+}
+.h1imc{
+    
+}

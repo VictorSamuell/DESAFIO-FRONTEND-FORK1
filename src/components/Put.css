@@ -1,0 +1,45 @@
+.headerss
+{
+display:flex;
+align-items:center;
+justify-content: center;
+padding: 20px;
+background-color: #121212;
+color: aliceblue;
+font-family: Cambria , Arial;
+}
+.secao{
+    background-color: #121212;
+    color: aliceblue;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 87vh;
+    padding-top: 50px;
+}
+
+.ave{
+    font-family: Arial;
+}
+
+.formidiv{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.doido{ 
+    outline: unset;
+    padding: 1px;
+    min-width: 300px;
+    border: 1px solid #1251a3;
+    border-radius: 8px;
+}
+.slaeu{
+    padding-top: 2px;
+    background-color:#1251a3 ;
+    color: aliceblue;
+    cursor: pointer;
+    border-radius: 8px;
+
+}

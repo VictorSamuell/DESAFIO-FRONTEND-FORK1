@@ -1,0 +1,54 @@
+
+.home{
+    background-color: #91f0d3;
+}
+.credo{
+    
+    font-family: Arial;
+    padding-top: 100px;
+    
+
+}
+.secao2{
+    
+    background-color: #91f0d3;
+    color: #1251a3;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 87vh;
+    padding-top: 50px;
+}
+
+.mano{
+
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    padding: 20px;
+    background-color:#91f0d3 ;
+    color: #1251a3;
+    font-family: Cambria , Arial;   
+
+}
+.maluco{
+    outline: unset;
+    padding: 1px;
+    min-width: 300px;
+    border: 1px solid cornflowerblue;
+    border-radius: 8px;
+
+}
+.butas{
+    
+    padding-top: 2px;
+    background-color: #530006;
+    width: 300px;
+    color: aliceblue;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.formidiv2{
+    display: flex;
+    flex-direction: column;
+}
