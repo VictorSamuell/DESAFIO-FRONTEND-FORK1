@@ -21,6 +21,7 @@
     padding-top: 50px;
     display: flex;
     flex-direction: column;
+    padding: 3px;
 }
 .involvente{
     display:flex;
@@ -29,11 +30,17 @@
     padding: 20px;
     background-color: #91f0d3;
     color: #1251a3;
-    font-family: Cambria , Arial;   
+    font-family: Cambria , Arial;  
+    padding: 3px; 
 
 
 
 }
-.h1imc{
+.divimc4{
+    padding-top: 10px;
+    align-items: left;
+    justify-content: left;
+    
+
     
 }

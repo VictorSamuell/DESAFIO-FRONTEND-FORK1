@@ -18,7 +18,7 @@ function Imc() {
   return (
     <div className="flauta">
         <header className='involvente'>
-            <h1 className='h1imc'> Veja se você está fora de forma!!</h1>
+            <h1 className='h1imc'> Veja se você está fora de forma!</h1>
         </header>
 
         <section className='quemexe'>
@@ -46,16 +46,15 @@ function Imc() {
           <h1 className='involvente'>IMC : {result} </h1>
           
         )}
-            
-            <p>Menor que 16,9 -> MUITO ABAIXO DO PESO</p>
-            <p>17 a 18,4      -> ABAIXO DO PESO</p>
-            <p>18,5 a 24,9    -> PESO NORMAL</p>
-            <p>25 a 29,9      -> ACIMA DO PESO</p>
-            <p>30 a 34,9      -> OBESIDADE GRAU I</p>
-            <p>35 a 40        -> OBESIDADE GRAU II</p>
-            <p>Maior que 40   -> OBESIDADE GRAU III</p>
-            <p> Caso OBESIDADE GRAU III procure um médico o mais rapido possivel!</p>
-        
+            <div className='divimc4'>
+            <li>Menor que 16,9 - MUITO ABAIXO DO PESO</li>
+            <li>17 a 18,4      - ABAIXO DO PESO</li>
+            <li>18,5 a 24,9    - PESO NORMAL</li>
+            <li>25 a 29,9      - ACIMA DO PESO</li>
+            <li>30 a 34,9      - OBESIDADE GRAU I</li>
+            <li>35 a 40        - OBESIDADE GRAU II</li>
+            <li>Maior que 40   - OBESIDADE GRAU III</li>
+            </div>
       </Form>
       </section>
     </div>

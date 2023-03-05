@@ -10,7 +10,7 @@
     width: 100%;
     min-height: 95vh;
     padding: 100px;
-    background: #121212;
+    background: #91f0d3;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -20,7 +20,7 @@
     position: relative;
     width: 100%;
     display: flex;
-    align-items: left;
+    align-items: center;
     justify-content: space-between;
 }
 .containersobre .textsobre{
@@ -29,7 +29,7 @@
     margin-right: 20px;   
 }
 .containersobre .textsobre .h2sobre{
-    color: #fff;
+    color: #1251a3;
     font-size: 2em;
     margin-bottom: 10px;
     line-height: 1em;
@@ -44,7 +44,7 @@
 
 }
 .containersobre .textsobre .psobre{
-    color: #fff;
+    color: #1251a3;
 }
 
 .deletesobre{
